@@ -464,3 +464,44 @@
 }
 
 /* Button 10 End */
+
+/* Button 11 Start */
+.menu_btn_11 {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+
+.bar_11 {
+    width: 100%;
+    height: .2rem;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    transition: all .4s ease;
+}
+
+.bar_11:last-child {
+    margin-bottom: 0;
+}
+
+.bar1_11 {
+    transform: rotate(45deg);
+    transform-origin: center;
+    margin-top: 7px;
+}
+
+.bar2_11 {
+    opacity: 0;
+}
+
+.bar3_11 {
+    transform: rotate(-45deg);
+    transform-origin: center;
+    margin-top: -14px;
+}
+
+/* Button 11 End */
