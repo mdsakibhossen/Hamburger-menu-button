@@ -505,3 +505,60 @@
 }
 
 /* Button 11 End */
+
+
+/* Button 12 Start */
+.menu_btn_12 {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.menu_btn_12:hover .bar_12:nth-child(1), .menu_btn_12:hover .bar_12:nth-child(2) {
+    width: 100%;
+}
+
+
+.bar_12 {
+    width: 100%;
+    height: .2rem;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    transition: all .4s ease;
+}
+
+.bar_12:nth-child(1) {
+    width: 50%;
+    margin-left: auto;
+}
+
+.bar_12:nth-child(2) {
+    width: 75%;
+    margin-left: auto;
+}
+
+.bar_12:last-child {
+    margin-bottom: 0;
+}
+
+.bar1_12 {
+    transform: rotate(-45deg);
+    transform-origin: center;
+    margin-top: 7px;
+    width: 100% !important;
+}
+
+.bar2_12 {
+    opacity: 0;
+}
+
+.bar3_12 {
+    transform: rotate(45deg);
+    transform-origin: center;
+    margin-top: -14px;
+}
+
+/* Button 12 End */

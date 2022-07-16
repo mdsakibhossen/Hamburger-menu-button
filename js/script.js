@@ -142,3 +142,17 @@ menu_btn_11.addEventListener('click', () => {
     bar3_11.classList.toggle('bar3_11');
 })
 // Button 11 End
+
+// Button 12 Start
+const menu_btn_12 = document.querySelector('.menu_btn_12');
+const bar_12 = menu_btn_12.children;
+menu_btn_12.addEventListener('click', () => {
+    const bar1_12 = bar_12[0];
+    const bar2_12 = bar_12[1];
+    const bar3_12 = bar_12[2];
+
+    bar1_12.classList.toggle('bar1_12');
+    bar2_12.classList.toggle('bar2_12');
+    bar3_12.classList.toggle('bar3_12');
+})
+// Button 12 End
